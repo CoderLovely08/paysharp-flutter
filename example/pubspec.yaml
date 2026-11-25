@@ -1,0 +1,15 @@
+name: paysharp_flutter_example
+description: Example application for paysharp_flutter.
+publish_to: none
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  paysharp_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: false
